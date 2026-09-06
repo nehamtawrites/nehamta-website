@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #dbeafe;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tagline p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+ul {
+    padding: 0;
+}
+
+.service-card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 12px;
+    max-width: 300px;
+    list-style: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    background-color: #2563eb !important;
+    color: white !important;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+</style>
+<title>NEHAMTA</title>
+</head>
+<body>  
+    <h1>NEHAMTA</h1>
+  <p>✍️ Write Less. Present Better.</p>
+<div class="tagline">
+    <p>Neat. Simple. Beautifully Written. ✍️</p>
+<h2>Our Services</h2>
+<ul>
+    <li class="service-card">Handwritten Assignments ✍️</li>
+   <li class="service-card">College Projects 📚</li>
+<li class="service-card">Practical & Record Writing 📝</li> 
+</ul>
+  <input type="number" min="1" placeholder="Enter pages">
+<button type="button" onclick="document.querySelector('form').scrollIntoView({behavior:'smooth'});">Order Now</button>
+
+
+<form onsubmit="alert('Thank you! Your order request has been received.'); return false;">
+<h2>Place Your Order</h2>
+
+<p>Name:</p>
+<input type="text" placeholder="Enter your name">
+
+<p>Subject:</p>
+<input type="text" placeholder="Enter subject name">
+
+<p>Number of Pages:</p>
+<input type="number" min="1" placeholder="Enter number of pages">
+<p>Required By:</p>
+<input type="date">
+<p>Special Instructions:</p>
+<textarea rows="4" cols="30" placeholder="Any special instructions?"></textarea>
+
+  <form>
+<a href="https://wa.me/9978300153" target="_blank">
+    <button type="button">Order Now</button>
+</a>
+    <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p>📱 WhatsApp:9978300153</p>
+  <p>📧 Email: nehamtawrites.com</p>
+</div>
+<p>For orders, contact us on WhatsApp.</p>
+<h2>Why Choose Nehamta?</h2>
+<p>Your work, written neatly and presented beautifully. ✍️</p>
+<ul>
+    <li>✍️ Neat Handwriting</li>
+    <li>📚 Clean & Organized Work</li>
+    <li>⏰ Timely Completion</li>
+    <li>💙 Careful Presentation</li>
+</ul>
+<h2>Our Prices</h2>
+
+<ul>
+    <li>✍️ Handwritten Assignment — 4 pages (front + back): ₹100</li>
+    <li>📚 College Project — Price as per project work</li>
+    <li>📝 Practical & Record Writing — 4 pages (front + back): ₹100</li>
+</ul>
